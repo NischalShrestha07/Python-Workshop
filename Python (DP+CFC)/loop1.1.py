@@ -1,4 +1,4 @@
-
+#DIFFERENT DATA ACCESSING WAYS USING FOR LOOPS
 
 fruits=["nischal","krishna","hari","shyam"]
 for hello in fruits:
