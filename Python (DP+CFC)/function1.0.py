@@ -26,3 +26,15 @@ def add(a,b):
     print("The sum of two entered numbers is:",sum)
 
 add(6,4)
+
+# WAY-4:-
+## Lamda is also called as Anymonous Function in Python
+
+join=lambda a,b:a+b
+print(join(45,5))
+
+#   WAY-> 5
+# IMPORTANT ARGUMENT TO TAKE MULTIPLE ARGUMENTS:(*args)
+def test(*args):
+    print(args)
+test(1,2,3,4,5,6,7)    
