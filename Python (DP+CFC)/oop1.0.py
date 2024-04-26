@@ -41,6 +41,12 @@ class Vehicle:
     def fuel(self):
         print("Car needs Fuels.")    
 
+    def printCarDetails(self):
+        # print(self.carName,self.carBrand,self.carPrice,self.carColor)
+        print(f"CarName:{self.carName}")
+        print(f"CarBrand:{self.carBrand}")
+        print(f"CarPrice:{self.carPrice}")
+        print(f"CarColor:{self.carColor}")
 
 class Car(Vehicle):
     def slowSpeed(self):
@@ -51,3 +57,7 @@ car1.slowSpeed()
 car1.move()
 car1.stop()
 car1.fuel()
+data=Vehicle("Lamborgani","Lambo","2500000","Red")
+print("\n")
+
+data.printCarDetails()
