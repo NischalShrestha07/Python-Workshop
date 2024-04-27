@@ -10,3 +10,9 @@ class Rectangle:
     # So "calcualte_perimeter()" is not accessed by the user and "get_perimeter()" can be accessed.
     def get_perimeter(self):
         return self.calcualte_perimeter()    
+    
+rectangle=Rectangle(4,2)    
+# here "calcualte_perimeter()" is not taken as its the main data which shouldn't be access or changed 
+# So "get_perimeter()" is made a getter which helps to abstract the data from users.
+
+perimeter=rectangle.get_perimeter()
