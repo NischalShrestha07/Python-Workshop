@@ -16,4 +16,30 @@ class Circle(Shape):
         self.radius=radius
         # super().__init__()        
     def area(self):
-        return 3014*self.radius**2    
+        return 3.14*self.radius**2    
+class Rectangle(Shape):
+    def __init__(self,length,width):
+        # super().__init__()
+        self.length=length
+        self.width=width
+
+    
+    def area(self):
+        return self.length*self.width
+
+def printArea(shape):
+    print(f"Area: {shape.area()}")
+
+
+# rectangle=Rectangle(5,2)    
+# circle=Circle(4)
+
+# printArea(rectangle)
+# printArea(circle)
+shapes=[Rectangle(5,2),Circle(4)]
+
+for i in shapes:
+    result=shapes[0]
+    result2=shapes[1]
+printArea(result)   
+printArea(result2)   
