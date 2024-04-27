@@ -12,8 +12,8 @@ class Vehicle:
         print(f"Color: {self.color}")    
         print(f"Price: {self.price}")    
 
-
+# super() is keyword which is used when we are inheriting the data from the parent class.
 class Car(Vehicle):
     def __init__(self, name, model, year, color, price):
-        super().__init__(name, model, year, color, price)
+        super().__init__(name, model, year, color, price) 
         

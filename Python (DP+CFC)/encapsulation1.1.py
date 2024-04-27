@@ -9,7 +9,7 @@ class Employee:
     def calculate_bonus(self):
         return self._salary*0.1    
 
-# below getters/setter are used to access the data from the class
+# below getters/setter are used to access the data from the class  
     def display_info(self):
         print(f"Name: ${self._name}") 
         print(f"Employee ID: ${self._em_id}") 
