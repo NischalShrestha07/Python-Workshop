@@ -11,6 +11,8 @@ class BankAccount:
     
     def checkBalance(self):
         print(f"Current Balance: {self.balance}")    
+
+        
     def transferAmount(self,send):
         self.balance=self.balance-send
         print(f"Transfered Successful.\nNew balance:{self.balance}")
@@ -22,8 +24,8 @@ class BankAccount:
 
 print("\n")        
 account=BankAccount("12540",10000)
-# account.checkBalance()
 # account.withdraw(5000)
 account.transferAmount(5000)
 account.deposit(30000)
-account.withdraw(50000)
+account.withdraw(15000)
+account.checkBalance()
