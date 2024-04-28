@@ -7,7 +7,7 @@ class BankAccount:
     def __init__(self,accountNumber,_balance):
         self.__accountNumber=accountNumber
         self._balance=_balance
-        self.__accountNumber=accountNumber
+        # self.__accountNumber=accountNumber
     #  __accountNumber is the encapsulation which is done to not to let access the data outside the class
     # Encapsulation(__instance) kind of works like a private
      
