@@ -30,9 +30,14 @@
 
 
 # x=["apple","banana"]
-# y=["apple","lichhi"]
-x="apple"
-y="banana"
-z=x
-print(x is z )
-print(x is y)
+# # y=["apple","lichhi"]
+# x="apple"
+# y="banana"
+# z=x
+# print(x is z )
+# print(x is y)
+i=1
+while i<=6:
+    print(i)
+    i+=1
+    
