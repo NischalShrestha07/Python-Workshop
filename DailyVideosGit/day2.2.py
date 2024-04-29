@@ -11,7 +11,7 @@ std1=Student("Nischal",41)
 print(f"Student Name:{std1.name}")
 print(f"Student Age:{std1.age}")
 
-# college Details
+# College Details
 print(f"College Name: {Student.college_name}")
 
 std1.name="Nischal"
