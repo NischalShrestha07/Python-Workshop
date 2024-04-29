@@ -20,6 +20,7 @@ class Person:
 
 name1=Person('Nischal','Male','Hello')
 print("\n")
+
 name1.show()
 name1.work()
 
