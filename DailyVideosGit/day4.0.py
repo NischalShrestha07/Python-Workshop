@@ -26,7 +26,7 @@ class Car(Vehicle):
         print("Car Changed 7 gears.")        
 
 # /Car Object
-car1=Car("Lambo","Red",2000000)        
+car1=Car("Lambo","Red",2000000       
 car1.show()
 
 # calls methods from Car class
